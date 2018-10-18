@@ -1,0 +1,33 @@
+{
+  "name": "full-stack",
+  "version": "1.0.0",
+  "description": "全栈入门日记",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sh build/deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suanmei/full-stack.git"
+  },
+  "keywords": [
+    "fullstack",
+    "koa2",
+    "React",
+    "SSR"
+  ],
+  "author": "suanmei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suanmei/full-stack/issues"
+  },
+  "homepage": "https://github.com/suanmei/full-stack#readme"
+}
